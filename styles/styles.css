@@ -34,7 +34,7 @@ img.kittens {
   border-width: 3px;
   width: 25rem;
 }
-nav {
+nav.head{
   background-color: #D3D3D3; /* dark gray */
   box-sizing: border-box;
   padding-left: 3rem;
@@ -61,6 +61,10 @@ footer a {
 
 nav li {
   display: inline;
+}
+
+.foot li{
+    display: inline;
 }
 
 aside {
