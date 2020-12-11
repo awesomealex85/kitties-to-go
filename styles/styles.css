@@ -11,6 +11,15 @@ header {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
+.hidden{
+  position: absolute;
+  left: -10000px;
+  top: auto;
+}
+.hidden:focus {
+  left: 10px;
+  color: white;
+}
 .italic {
   font-style: italic;
 }
@@ -63,10 +72,10 @@ nav li {
   display: inline;
 }
 
-.foot li{
-    display: inline;
+nav a {
+  padding: .5rem;
+  margin: .25rem;
 }
-
 aside {
   width: 30%;
   float: right;
